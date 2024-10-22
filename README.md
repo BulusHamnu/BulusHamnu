@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @BulusHamnu
 - 👀 I’m interested in web development
-- 🌱 I’m currently learning python,django
+- 🌱 check out my projects
 - 💞️ I’m looking to collaborate on mini project with you
 - 📫 you can reach me through my email hamnubulus@gmail.com
 
