@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @BulusHamnu
-- 👀 I’m interested in web development
+- 👀 I’m interested in web development and i love building stuff
 - 🌱 check out my projects
-- 💞️ I’m looking to collaborate on mini project with you
+- 💞️ I’m looking forward to collaborating on any type of project available 
 - 📫 you can reach me through my email hamnubulus@gmail.com
 
 <!---
