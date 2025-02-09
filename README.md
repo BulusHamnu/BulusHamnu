@@ -6,18 +6,20 @@ I'm currently pursuing a Computer Science degree at Abubakar Tafawa Balewa Unive
 If you're looking for a collaborator in web development, app development, or any tech-related projects, feel free to reach out—I'd love to connect! 
 
 ## 🛠️ Tech Stack
-<p style="display:flex;">
-<img src="html-5.svg" alt="HTML" width="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
-<img src="css-alt.svg" alt="CSS" width="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
-<img src="javascript.svg" alt="JS" width="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
-<img src="react.svg" alt="REACT" width="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
-<img src="tailwind-css (1).svg" alt="TAILWIND" width="50" height="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
-<img src="python.svg" alt="PYTHON" width="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
-<img src="bootstrap.svg" alt="BOOTSTRAP" width="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
-<img src="figma.svg" alt="FIGMA" width="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
-<img src="git.svg" alt="GIT" width="50" style="margin-right: 1rem;border:2px solid blue; padding:.3rem; border-radius:0.3rem;"/>
+<p style="display:flex; gap:10px;">
+<img align="left" src="html-5.svg" alt="HTML" width="50" style="margin-right:30px;"/>
+<img align="left" src="css-alt.svg" alt="CSS" width="50" style="margin-right:50px;"/>
+<img align="left" src="javascript.svg" alt="JS" width="50" style="margin-right:30px;"/>
+<img align="left" src="react.svg" alt="REACT" width="50" style="margin-right:30px;"/>
+<img align="left" src="tailwind-css (1).svg" alt="TAILWIND" width="50" height="50" style="margin-right:30px;"/>
+<img align="left" src="python.svg" alt="PYTHON" width="50" style="margin-right:30px;"/>
+<img align="left" src="bootstrap.svg" alt="BOOTSTRAP" width="50" style="margin-right:30px;"/>
+<img align="left" src="figma.svg" alt="FIGMA" width="50" style="margin-right:30px;"/>
+<img align="left" src="git.svg" alt="GIT" width="50" style="margin-right:30px;"/>
 </p>
 
+<br> 
+<br> 
 <br> 
 
 ## 🌟 Featured Projects
