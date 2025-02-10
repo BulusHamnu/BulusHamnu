@@ -1,5 +1,6 @@
-# Bulus Hamnu - Front-End Developer
-Hey there! 👋🏽 I'm Bulus Hamnu Madu, a passionate developer dedicated to building clean, efficient, and user-friendly web and mobile applications. I thrive on solving complex problems and continuously learning new technologies to sharpen my skills.
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1000&color=A8F5F7&vCenter=true&width=435&lines=Hey+there+%F0%9F%91%8B%F0%9F%8F%BE%2C+welcome+to+my+profile!;+My+name+is+bulus+hamnu+madu.;+i'm+a+Front-end+developer.;Check+out+my+projects+down+below+%F0%9F%91%87%F0%9F%8F%BE)](https://git.io/typing-svg)
+
+I'm Bulus Hamnu Madu, a passionate developer dedicated to building clean, efficient, and user-friendly web and mobile applications. I thrive on solving complex problems and continuously learning new technologies to sharpen my skills.
 
 I'm currently pursuing a Computer Science degree at Abubakar Tafawa Balewa University, Bauchi, Nigeria. I'm open to part-time remote jobs and internship opportunities to gain practical experience and contribute to exciting projects.
 
