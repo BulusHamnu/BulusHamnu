@@ -1,0 +1,63 @@
+name: Updating profile readme with svg-projects-card
+
+on:
+  workflow_dispatch:  # This allows manual triggering of the workflow, i see no reason updating it on cron job
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest  # Specifies the OS where the job runs
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4  # Checks out the repository so we can modify files
+
+      - name: Fetch Project Data from API
+        run: |
+          # Sending a POST request with project data and saving the response to projects.json
+          curl -H 'Content-Type: application/json' \
+               -d '{ "repos": [
+                    {
+                        "name": "readme-svg-projects-card",
+                        "theme": "dark",
+                    },
+                    {
+                        "name": "Portfolio-V1",
+                        "theme": "light",
+                    },
+                    {
+                        "name": "Demi-Tasks",
+                        "theme": "warm",
+                    },
+                    {
+                        "name": "fewerCharacters",
+                        "theme": "cool",
+                    }
+            ] }' \
+            -X POST \
+            https://svg-projects-card.onrender.com/api/BulusHamnu/repos \
+            -o projects.json  # Saves the API response to a file
+
+      - name: Generate Markdown with Raw SVGs
+        run: |
+          # Create a new projects.md file and add start tag
+          echo "<!-- PROJECTS START -->" > projects.md
+          
+          # Extract project data from JSON and format it into markdown
+          jq -r '.data[] | "<a href=\"\(.project_url)\">\(.svg)</a>"' projects.json >> projects.md
+          
+          # Add end tag
+          echo "<!-- PROJECTS END -->" >> projects.md
+
+      - name: Update README.md
+        run: |
+          # Replaces the section between PROJECTS START and PROJECTS END in README.md
+          sed -i '/<!-- PROJECTS START -->/,/<!-- PROJECTS END -->/c\'"$(cat projects.md)" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"  # Set Git user name
+          git config --global user.email "actions@github.com"  # Set Git email
+          git add README.md  # Stage the changes
+          
+          # Commit and push changes only if there are modifications
+          git diff --cached --quiet || (git commit -m "Updated project SVGs" && git push)
