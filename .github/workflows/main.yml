@@ -51,12 +51,14 @@ jobs:
           # Add end tag
           echo "<!-- PROJECTS END -->" >> projects.md
 
-      - name: Update README.md
+      - name: Update README with projects
         run: |
           sed -i '/<!-- PROJECTS START -->/,/<!-- PROJECTS END -->/c\
           <!-- PROJECTS START -->' README.md
-          cat projects.md >> README.md
-          echo "<!-- PROJECTS END -->" >> README.md
+          
+          echo "" >> README.md  # Add a newline for proper formatting
+          cat projects.md >> README.md  # Append the contents of projects.md
+          echo -e "\n<!-- PROJECTS END -->" >> README.md  # Ensure the end tag is properly placed
 
       - name: Commit and push changes
         env:
