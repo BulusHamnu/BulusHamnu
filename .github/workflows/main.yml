@@ -38,9 +38,6 @@ jobs:
             -X POST \
             https://svg-projects-card.onrender.com/api/BulusHamnu/repos \
             -o projects.json  # Saves the API response to a file
-            
-      - name: Debug API Response
-        run: cat projects.json || echo "projects.json is empty"
 
       - name: Generate Markdown with Raw SVGs
         run: |
@@ -60,18 +57,6 @@ jobs:
           <!-- PROJECTS START -->' README.md
           cat projects.md >> README.md
           echo "<!-- PROJECTS END -->" >> README.md
-
-       # Debug Token Step - Checks if GH_PAT is set
-      - name: Debug Token
-        env:
-          GH_TO: ${{ secrets.GH_TO }}
-        run: |
-          if [ -z "$GH_TO" ]; then
-            echo "❌ GH_TO is empty! Check your repository secrets."
-            exit 1
-          else
-            echo "✅ GH_TO is set!"
-          fi
 
       - name: Commit and push changes
         env:
