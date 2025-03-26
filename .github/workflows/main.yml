@@ -53,12 +53,11 @@ jobs:
 
       - name: Update README with projects
         run: |
-          sed -i '/<!-- PROJECTS START -->/,/<!-- PROJECTS END -->/c\
-          <!-- PROJECTS START -->' README.md
-          
-          echo "" >> README.md  # Add a newline for proper formatting
-          cat projects.md >> README.md  # Append the contents of projects.md
-          echo -e "\n<!-- PROJECTS END -->" >> README.md  # Ensure the end tag is properly placed
+          sed -i -e '/<!-- PROJECTS START -->/,/<!-- PROJECTS END -->/{
+            /<!-- PROJECTS START -->/!d
+            r projects.md
+          }' README.md
+
 
       - name: Commit and push changes
         env:
