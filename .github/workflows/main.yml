@@ -54,8 +54,11 @@ jobs:
 
       - name: Update README.md
         run: |
-          # Replaces the section between PROJECTS START and PROJECTS END in README.md
-          sed -i '/<!-- PROJECTS START -->/,/<!-- PROJECTS END -->/c\'"$(cat projects.md)" README.md
+          sed -i '/<!-- PROJECTS START -->/,/<!-- PROJECTS END -->/c\
+          <!-- PROJECTS START -->' README.md
+          cat projects.md >> README.md
+          echo "<!-- PROJECTS END -->" >> README.md
+
 
       - name: Commit and push changes
         run: |
