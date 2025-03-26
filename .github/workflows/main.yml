@@ -82,4 +82,4 @@ jobs:
           git add README.md  # Stage the changes
       
           # Commit and push only if there are modifications
-          git diff --cached --quiet || (git commit -m "Updated project SVGs" && git push https://x-access-token:${GH_TOKEN}@github.com/BulusHamnu/BulusHamnu.git HEAD:main)
+          git diff --cached --quiet || (git commit -m "Updated project SVGs" && git push https://x-access-token:${GH_TOKEN}@github.com/BulusHamnu/BulusHamnu.git HEAD:Main)
