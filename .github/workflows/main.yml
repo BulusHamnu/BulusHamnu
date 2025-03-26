@@ -6,6 +6,8 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest  # Specifies the OS where the job runs
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -73,7 +75,7 @@ jobs:
 
       - name: Commit and push changes
         env:
-          GH_TOKEN: ${{ secrets.GH_TO }}  # Use the secret token
+          GH_TO: ${{ secrets.GH_TO }}  # Use the secret token
         
         run: |
           git config --global user.name "GitHub Actions"
