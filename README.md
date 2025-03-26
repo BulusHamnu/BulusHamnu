@@ -1,4 +1,4 @@
-# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1000&color=A8F5F7&vCenter=true&width=435&lines=Hey+there+%F0%9F%91%8B%F0%9F%8F%BE%2C+welcome+to+my+profile!;+My+name+is+bulus+hamnu+madu.;+i'm+a+Front-end+developer.;Check+out+my+projects+down+below+%F0%9F%91%87%F0%9F%8F%BE)](https://git.io/typing-svg)
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1000&color=A8F5F7&vCenter=true&width=435&lines=Hey+there+%F0%9F%91%8B%F0%9F%8F%BE%2C+welcome+to+my+profile!;+My+name+is+bulus+hamnu+madu.;+i'm+a+Software+developer.;Check+out+my+projects+down+below+%F0%9F%91%87%F0%9F%8F%BE)](https://git.io/typing-svg)
 
 I'm Bulus Hamnu Madu, a passionate developer dedicated to building clean, efficient, and user-friendly web and mobile applications. I thrive on solving complex problems and continuously learning new technologies to sharpen my skills.
 
@@ -25,17 +25,16 @@ If you're looking for a collaborator in web development, app development, or any
 <br> 
 <br> 
 
-## Features Projests
-<a href=""><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/readme-svg-projects-card?theme=dark" alt="readme-svg-projects-card" style="margin-right:30px;"/></a>
-<a href=""><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Portfolio-V1?theme=light" alt="Portfolio-V1" style="margin-right:30px;"/></a>
-<a href=""><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Demi-Tasks?theme=warm" alt="Demi-Tasks" style="margin-right:30px;"/></a>
-<a href=""><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/fewerCharacters?theme=cool" alt="fewerCharacters" style="margin-right:30px;"/></a>
+## Features Projects
+<a href="https://github.com/BulusHamnu/readme-svg-projects-card.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/readme-svg-projects-card?theme=dark" alt="readme-svg-projects-card" style="margin-right:35px;"/></a>
+<a href="https://github.com/BulusHamnu/Portfolio-V1.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Portfolio-V1?theme=light" alt="Portfolio-V1" style="margin-right:35px;"/></a>
+<a href="https://github.com/BulusHamnu/Demi-Tasks.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Demi-Tasks?theme=warm" alt="Demi-Tasks" style="margin-right:35px;"/></a>
+<a href="https://github.com/BulusHamnu/fewerCharacters.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/fewerCharacters?theme=cool" alt="fewerCharacters" style="margin-right:35px;"/></a>
 
 <br>
 <br> 
 <br> 
 <br> 
-
 
 ## 📊 GitHub Stats
 ![Bulus Hamnu GitHub Stats](https://github-readme-stats.vercel.app/api?username=BulusHamnu&show_icons=true&theme=radical)
