@@ -26,10 +26,8 @@ If you're looking for a collaborator in web development, app development, or any
 <br> 
 
 ## Features Projects
-<a href="https://github.com/BulusHamnu/readme-svg-projects-card.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/readme-svg-projects-card?theme=dark" alt="readme-svg-projects-card" style="margin-right:35px;"/></a>
-<a href="https://github.com/BulusHamnu/Portfolio-V1.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Portfolio-V1?theme=light" alt="Portfolio-V1" style="margin-right:35px;"/></a>
-<a href="https://github.com/BulusHamnu/Demi-Tasks.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Demi-Tasks?theme=warm" alt="Demi-Tasks" style="margin-right:35px;"/></a>
-<a href="https://github.com/BulusHamnu/fewerCharacters.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/fewerCharacters?theme=cool" alt="fewerCharacters" style="margin-right:35px;"/></a>
+<!-- PROJECTS START -->
+<!-- PROJECTS END -->
 
 <br>
 <br> 
