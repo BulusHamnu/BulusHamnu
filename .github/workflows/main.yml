@@ -18,19 +18,19 @@ jobs:
                -d '{ "repos": [
                     {
                         "name": "readme-svg-projects-card",
-                        "theme": "dark",
+                        "theme": "dark"
                     },
                     {
                         "name": "Portfolio-V1",
-                        "theme": "light",
+                        "theme": "light"
                     },
                     {
                         "name": "Demi-Tasks",
-                        "theme": "warm",
+                        "theme": "warm"
                     },
                     {
                         "name": "fewerCharacters",
-                        "theme": "cool",
+                        "theme": "cool"
                     }
             ] }' \
             -X POST \
