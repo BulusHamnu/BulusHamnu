@@ -25,21 +25,17 @@ If you're looking for a collaborator in web development, app development, or any
 <br> 
 <br> 
 
-## 🌟 Featured Projects
-- **[Bulus-dev portfolio V1](https://bulusdev.vercel.app/index.html)**  
-  This is my personal portfolio website, designed to showcase my skills, projects, and experience as a developer. It includes an 'About Me' section where I share details about my background, education, and journey as a developer.
-
-- **[Demy's Studio](https://bulushamnu.github.io/demys-studio/)**  
-  Demy's Studio is a portfolio website for a photography studio to showcase its potential and display its work to the world. The website integrates with the Unsplash API to fetch high-quality images from various categories, such as products, events, and lifestyle.
-  
-- **[FewerCharacters](https://fewercharacters.vercel.app/)**  
-  This project is a web application that uses a backend server to interact with the OpenAI API to shorten a given text to fit within a specified character limit while preserving its meaning. The project supports multiple responses for varied summaries.
-
-- **[Task Manager App](https://demitasks.vercel.app/)**  
-  ODemi Tasks Manager is a powerful tool that helps you organize tasks, track progress, and analyze productivity. It allows you to create, edit, and delete tasks, add to-dos, attachments, and due dates, and categorize tasks for better organization.
-
+## Features Projests
+<a href=""><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/readme-svg-projects-card?theme=dark" alt="readme-svg-projects-card" style="margin-right:30px;"/></a>
+<a href=""><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Portfolio-V1?theme=light" alt="Portfolio-V1" style="margin-right:30px;"/></a>
+<a href=""><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Demi-Tasks?theme=warm" alt="Demi-Tasks" style="margin-right:30px;"/></a>
+<a href=""><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/fewerCharacters?theme=cool" alt="fewerCharacters" style="margin-right:30px;"/></a>
 
 <br>
+<br> 
+<br> 
+<br> 
+
 
 ## 📊 GitHub Stats
 ![Bulus Hamnu GitHub Stats](https://github-readme-stats.vercel.app/api?username=BulusHamnu&show_icons=true&theme=radical)
