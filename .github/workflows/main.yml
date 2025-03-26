@@ -59,10 +59,22 @@ jobs:
           cat projects.md >> README.md
           echo "<!-- PROJECTS END -->" >> README.md
 
+       # Debug Token Step - Checks if GH_PAT is set
+      - name: Debug Token
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "❌ GH_PAT is empty! Check your repository secrets."
+            exit 1
+          else
+            echo "✅ GH_PAT is set!"
+          fi
 
       - name: Commit and push changes
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Use the secret token
+        
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
