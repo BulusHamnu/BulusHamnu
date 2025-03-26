@@ -34,8 +34,7 @@ jobs:
                     }
             ] }' \
             -X POST \
-            https://svg-projects-card.onrender.com/api/BulusHamnu/repos \
-            -o projects.json  # Saves the API response to a file
+            https://svg-projects-card.onrender.com/api/BulusHamnu/repos 
 
       - name: Generate Markdown with Raw SVGs
         run: |
