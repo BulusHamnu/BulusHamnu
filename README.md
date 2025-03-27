@@ -25,7 +25,7 @@ If you're looking for a collaborator in web development, app development, or any
 <br> 
 <br> 
 
-## Features Projects
+## 🅰️ Features Projects
 <!-- PROJECTS START -->
 <a href="https://github.com/BulusHamnu/readme-svg-projects-card.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/readme-svg-projects-card?theme=dark" alt="readme-svg-projects-card" style="margin-right:35px;"/></a>
 <a href="https://github.com/BulusHamnu/Portfolio-V1.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Portfolio-V1?theme=light" alt="Portfolio-V1" style="margin-right:35px;"/></a>
