@@ -40,7 +40,7 @@ Open to backend-focused opportunities, collaborations, and interesting projects.
 <!-- PROJECTS START -->
 
 <a href="https://github.com/BulusHamnu/siwel-beats-app.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/siwel-beats-app?theme=warm" alt="Siwel Beats App" style="margin-right:35px;"/></a>
-<a href="https://github.com/BulusHamnu/true-love-backend-nodejs.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/true-love-backend-nodejs?theme=dark" alt="true-love-app" style="margin-right:35px;"/></a>
+<a href="https://github.com/BulusHamnu/true-love-app-backend.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/true-love-backend-nodejs?theme=dark" alt="true-love-app-backend" style="margin-right:35px;"/></a>
 <a href="https://github.com/BulusHamnu/readme-svg-projects-card.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/readme-svg-projects-card?theme=light" alt="readme-svg-projects-card" style="margin-right:35px;"/></a>
 <a href="https://github.com/BulusHamnu/Demi-Tasks.git"><img src="https://svg-projects-card.onrender.com/api/BulusHamnu/repos/Demi-Tasks?theme=cool" alt="Demi-Tasks" style="margin-right:35px;"/></a>
 
